@@ -54,13 +54,14 @@ class Home extends React.PureComponent {
 
     render() {
         var vm = this;
-        const selectRow = this.props.isAdmin === 0 ? {
+        const selectRow = this.props.isAdmin === 1 ? {
             mode: 'radio',
             clickToSelect: true,
             onSelect: function (row) {
                 vm.handleShow(row);
             },
         } : null;
+        console.log(selectRow);
         const content = (
             <div className="home">
                 <div style={{display: this.props.isAdmin === 1 ? 'block' : 'none'}}>
