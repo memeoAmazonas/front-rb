@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import '../css/components/MainContainer.css';
+import '../css/components/mainContainer.css';
 
 class MainContainer extends React.PureComponent {
     render() {

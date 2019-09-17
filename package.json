@@ -4,14 +4,20 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "mdbreact": "^4.20.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-bootstrap-table-next": "^3.2.0",
     "react-bootstrap-table2-filter": "^1.2.0",
     "react-bootstrap-table2-paginator": "^2.1.0",
+    "react-document-title": "^2.0.3",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
+    "react-sortable-hoc": "^1.10.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
     "superagent": "^5.1.0"
   },
   "scripts": {
@@ -34,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
   }
 }

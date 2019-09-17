@@ -1,0 +1,39 @@
+.btn-add-user {
+    color: #ffffff;
+    background-color: #337ab7;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 0px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+.content{
+    width: 80%;
+    margin: 2% 0;
+    padding: 2% 1%;
+    display: flex;
+    flex-direction: column;
+}
+.input-add-user{
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    height: 33px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.content-roles{
+    background-color: red;
+}
