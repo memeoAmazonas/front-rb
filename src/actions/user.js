@@ -1,7 +1,6 @@
 import request from "superagent";
 import {urlBackend, urlBase} from "../constants";
 import {ADD_FAIL, ADD_SUCCESS, DATA_FAIL, DATA_SUCCESS, DELETE_FAIL, LOGIN_FAIL, LOGIN_SUCCESS, LOGOUT} from "./types";
-import {send} from "q";
 
 const setData = (data) => {
     let response = [];

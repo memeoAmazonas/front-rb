@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import {Button, Modal} from "react-bootstrap";
+import {Modal} from "react-bootstrap";
 import '../css/components/modalContainer.css';
 
 class ModalContainer  extends React.PureComponent {
