@@ -1,4 +1,4 @@
-export const urlBase = '192.168.12.195:8082';
+export const urlBase = 'localhost:8082';
 export const urlBackend = `http://${urlBase}/users/`;
 export const headerTable = [
     {
