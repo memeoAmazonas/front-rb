@@ -9,7 +9,7 @@ import store from './store';
 function App() {
     return (
         <Provider store={store}>
-            <DocumentTitle title="Example title">
+            <DocumentTitle title="@RBartolome-Test">
                 <Page/>
             </DocumentTitle>
         </Provider>
