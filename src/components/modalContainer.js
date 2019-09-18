@@ -14,12 +14,12 @@ class ModalContainer  extends React.PureComponent {
                     Esta seguro que desea eliminar el usuario <strong>{this.props.username}</strong> ?
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={this.props.handleClose}>
+                    <button style={{backgroundColor: 'red' }} className="btn-modal-delete" onClick={this.props.handleClose}>
                         Cancel
-                    </Button>
-                    <Button variant="primary" onClick={this.props.deleteUser}>
+                    </button>
+                    <button  className="btn-modal-delete" onClick={this.props.deleteUser}>
                         Delete user
-                    </Button>
+                    </button>
                 </Modal.Footer>
             </Modal>
         );
